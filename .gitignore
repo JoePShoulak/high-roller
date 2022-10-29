@@ -1,5 +1,6 @@
-node_modules
+node_modules/
+test/
+.vscode/
+
 jest.*
-test
 .env
-.vscode
