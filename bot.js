@@ -25,9 +25,6 @@ client.on("ready", () => {
 
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
-  if (interaction.channelId != "1035716879131619428") {
-    return await interaction.reply("This bot is not allowed in this channel");
-  }
 
   console.log(interaction);
 
