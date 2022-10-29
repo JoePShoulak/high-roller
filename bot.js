@@ -29,6 +29,8 @@ client.on("interactionCreate", async (interaction) => {
     return await interaction.reply("This bot is not allowed in this channel");
   }
 
+  console.log(interaction);
+
   commands[interaction.commandName](interaction);
 });
 

@@ -4,12 +4,48 @@ const { REST, Routes } = require("discord.js");
 
 const commands = [
   {
-    name: "d20",
-    description: "Replies with a random number between 1 and 20!",
+    name: "coin",
+    description: "Replies with 'Heads!' or 'Tails!' randomly!",
+  },
+  {
+    name: "d2",
+    description: "Replies with a random number between 1 and 2!",
+  },
+  {
+    name: "d4",
+    description: "Replies with a random number between 1 and 4!",
+  },
+  {
+    name: "d6",
+    description: "Replies with a random number between 1 and 6!",
+  },
+  {
+    name: "d8",
+    description: "Replies with a random number between 1 and 8!",
   },
   {
     name: "d10",
     description: "Replies with a random number between 1 and 10!",
+  },
+  {
+    name: "d12",
+    description: "Replies with a random number between 1 and 12!",
+  },
+  {
+    name: "d20",
+    description: "Replies with a random number between 1 and 20!",
+  },
+  {
+    name: "d100",
+    description: "Replies with a random number between 1 and 100!",
+  },
+  {
+    name: "dab",
+    description: "Replies with a random number between A and B!",
+  },
+  {
+    name: "dn",
+    description: "Replies with a random number between 1 and N!",
   },
 ];
 
