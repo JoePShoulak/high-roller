@@ -39,14 +39,6 @@ const commands = [
     name: "d100",
     description: "Replies with a random number between 1 and 100!",
   },
-  {
-    name: "dab",
-    description: "Replies with a random number between A and B!",
-  },
-  {
-    name: "dn",
-    description: "Replies with a random number between 1 and N!",
-  },
 ];
 
 const rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN);
